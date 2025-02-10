@@ -32,14 +32,78 @@
     background-size: cover;
 }
 
+.loging-btn {
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    border-radius: 16px;
+    background: #1F272E;
+    color: white;
+    transition: all 200ms linear;
+}
+
+.loging-btn:hover {
+    background-color: white;
+    color: #1F272E;
+}
+
+.Signin-btn {
+    width: 94;
+    height: 40;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    border-radius: 16px;
+    background-color: var(--dark-yellow);
+    transition: all 200ms linear;
+}
+
+.Signin-btn:hover {
+    background-color: #1F272E;
+    color: #D4FF27;
+}
+
+.btn {
+    border: none !important;
+}
+
+.body {
+    --bs-btn-color: #4D545E !important;
+    color: #4D545E !important;
+}
+
+.dropdown-box {
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    gap: 24px;
+    border-top: none !important;
+    border-bottom: none !important;
+    border: 3px solid #1F272E;
+}
+
+.nav-link-coming-soon {
+    padding: 2px 8px 2px 8px;
+    border-radius: 40px;
+    background: #1F272E;
+
+}
 
 
+.pl-24 {
+    padding-left: 24px;
+}
 
+.ml-24 {
+    margin-left: 24px;
+}
 
+.mt-20 {
+    margin-top: 20px;
+}
 
-
-
-
+.ml-8 {
+    margin-left: 8px;
+}
 
 
 

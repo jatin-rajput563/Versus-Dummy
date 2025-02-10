@@ -23,28 +23,50 @@
 
 <body>
     <!-----------------------section-1-------------- -->
-    <section class="bg-img min-vh-100">
-        <nav class="bg-black">
-            <div class="d-flex justify-content-between py-2 container mx-w-1140 bg-black">
-                <a href="#">logo</a>
+    <section class="min-vh-100">
+        <nav class="bg-light-black">
+            <div class="d-flex justify-content-between px-5 bg-light-black justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="#">
+                        <img src="./assets/image/svg/logo.svg" alt="logo">
+                    </a>
+                    <div class="dropdown-box">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="./assets/image/svg/dropdown.svg" alt="dropdown">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item active" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <ul class="list-unstyled d-flex nav-link ml-24 mt-20" id="nav-name">
+                        <li>
+                            <a class="text-decoration-none fs-md fw-bold color-yellow " href="#">GAMES</a>
+                        </li>
+                        <li>
+                            <a href="#" class="disable text-decoration-none pl-24 fs-md fw-bold color-light-black"
+                                aria-disabled="true">NEWS</a>
+                        </li>
+                        <li>
+                            <a class="nav-link-coming-soon text-decoration-none color-light-black ml-8" href="#">Coming
+                                Soon</a>
+                        </li>
+                    </ul>
+                </div>
                 <div onclick="navbarbtn()" class="z-5 d-lg-none">
                     <span class="menu-lines" id="rotats"></span>
                     <span class="menu-lines" id="transparent"></span>
                     <span class="menu-lines" id="rotats2"></span>
                 </div>
-                <ul id="nav-name" class="d-flex gap-3 list-unstyled py-2 nav-link">
-                    <li class="text-white">home</li>
-                    <li class="text-white">home</li>
-                    <li class="text-white">home</li>
-                    <li class="text-white">home</li>
-                    <li class="text-white">home</li>
-                    <li>
-                        <button>sign-in</button>
-                    </li>
+                <ul id="nav-name" class="d-flex gap-3 list-unstyled nav-link">
+                    <li><button class="loging-btn border-0">Log In</button></li>
+                    <li><button class="Signin-btn border-0">Sign Up</button></li>
                 </ul>
             </div>
         </nav>
-     
+
     </section>
     <!-----------------------section-2-------------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
