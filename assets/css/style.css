@@ -227,7 +227,7 @@
     color: black;
 }
 
-/* ----------------section-4-------------------- */
+/* ----------------section-5-------------------- */
 .News-heading {
     gap: 8px;
     padding-left: 16px;
@@ -314,9 +314,39 @@
     gap: 12px;
 }
 
+/* ----------------section-4-------------------- */
+.footer-bg-black {
+    background-color: #0D1012;
+}
 
+.footer-line {
+    border-width: 1px;
+    border: 1px solid #1F272E;
+}
 
+.mt-32 {
+    margin-top: 32px;
+}
 
+.footer-input-arrow-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: var(--dark-yellow);
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mb-56 {
+    margin-bottom: 56px;
+}
 
 
 
