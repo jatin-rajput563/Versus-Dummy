@@ -1,0 +1,79 @@
+ <div class="col-6">
+                    <div class="position-relative">
+                        <img class="w-100" src="./assets/image/png/section-5-sky-army.png" alt="section-5-sky-army">
+                        <div class="section-5-sky-army-card">
+                            <p class="Valorant-card bg-light-black text-white position-absolute">Valorant</p>
+                            <p class="mx-w-612 fw-bold fs-lg text-white">Rumor: Destiny 2's Next Returning Raid Possibly
+                                <br> Revealed By Known Leaker
+                            </p>
+                            <p class="mx-w-612 fw-normal fs-lg color-light-black">A Destiny 2 leaker known for their
+                                accuracy says the game's next returning raid could
+                                once again come from the original Destiny.</p>
+                            <div class="d-flex gap-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#D4FF27" />
+                                </svg>
+                                <p class="fw-normal fs-sm color-yellow">15 MAY 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex">
+                        <img src="./assets/image/png/section-5-horse-riding-img.png" alt="section-5-horse-riding-img">
+                        <div class="horse-riding-card">
+                            <p class="Valorant-card bg-light-black text-white position-absolute">Valorant</p>
+                            <p class="mx-w-612 fw-bold fs-lg text-white">Rumor: Destiny 2's Next Returning Raid Possibly
+                                <br> Revealed By Known Leaker
+                            </p>
+                            <div class="d-flex gap-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#D4FF27" />
+                                </svg>
+                                <p class="fw-normal fs-sm color-yellow">15 MAY 23</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-24">
+                        <img src="./assets/image/png/sky-fighting.png" alt="sky-fighting">
+                        <div class="horse-riding-card">
+                            <p class="Valorant-card bg-light-black text-white position-absolute">Valorant</p>
+                            <p class="mx-w-612 fw-bold fs-lg text-white">Rumor: Destiny 2's Next Returning Raid Possibly
+                                <br> Revealed By Known Leaker
+                            </p>
+                            <div class="d-flex gap-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#D4FF27" />
+                                </svg>
+                                <p class="fw-normal fs-sm color-yellow">15 MAY 23</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-24">
+                        <img src="./assets/image/png/sky-diving-army.png" alt="sky-diving-army">
+                        <div class="horse-riding-card">
+                            <p class="Valorant-card bg-light-black text-white position-absolute">Valorant</p>
+                            <p class="mx-w-612 fw-bold fs-lg text-white">Rumor: Destiny 2's Next Returning Raid Possibly
+                                <br> Revealed By Known Leaker
+                            </p>
+                            <div class="d-flex gap-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z"
+                                        fill="#D4FF27" />
+                                </svg>
+                                <p class="fw-normal fs-sm color-yellow">15 MAY 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
