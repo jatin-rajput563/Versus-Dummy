@@ -137,12 +137,28 @@
     top: 0;
 }
 
+/* ----------------section-3-------------------- */
+.mx-w-432 {
+    max-width: 432px;
+}
 
+.lh-36 {
+    line-height: 36px;
+}
 
+.grind-section-3-para {
+    top: 12%;
+    right: 27%;
+    font-family: "Normalidad", sans-serif;
 
+}
 
-
-
+.video {
+    top: 30%;
+    left: 20%;
+    max-width: 880px !important;
+    max-height: 480px;
+}
 
 
 
