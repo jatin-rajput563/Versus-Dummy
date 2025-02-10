@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Normalidad';
+    src: url('/assets/fonts/NormalidadCompact-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Normalidad';
+    src: url('/assets/fonts/NormalidadCompact-Medium.ttf');
+}
+
+.font-normalidad {
+    font-family: 'Normalidad';
+}
+
 .mx-w-1140 {
     max-width: 1140px !important;
 }
@@ -12,6 +26,18 @@
     transform-origin: left;
     border-radius: 10px;
     background-color: #fff;
+}
+
+.page-logo {
+    padding: 20px 24px;
+}
+
+.page-logo-image {
+    height: 16px;
+}
+
+.nav-bar {
+    max-width: 1440px;
 }
 
 .rotate40 {
@@ -55,31 +81,24 @@
     color: #D4FF27;
 }
 
-.btn {
-    border: none !important;
-}
-
 .body {
     --bs-btn-color: #4D545E !important;
     color: #4D545E !important;
 }
 
 .dropdown-box {
-    padding-top: 8px;
-    padding-right: 24px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    gap: 24px;
     border-top: none !important;
-    border-bottom: none !important;
-    border: 3px solid #1F272E;
+    border: 1px solid #1F272E;
+}
+
+.btn {
+    padding: 18px 24px !important;
 }
 
 .nav-link-coming-soon {
     padding: 2px 8px 2px 8px;
     border-radius: 40px;
     background: #1F272E;
-
 }
 
 
@@ -113,6 +132,10 @@
 }
 
 /* ----------------section-2-------------------- */
+.valo-image {
+    max-width: 286px;
+}
+
 .pt-95 {
     padding-top: 95px;
 }
@@ -126,6 +149,7 @@
     padding: 16px;
     background: #0D1012;
     transition: all 200ms linear;
+    max-width: 318px;
 }
 
 .section-2-games-box:hover {
@@ -135,6 +159,12 @@
 .coming-soon-img {
     left: 0;
     top: 0;
+}
+
+.game-slider .slick-track {
+    padding-top: 47px;
+    display: flex !important;
+    gap: 25px !important;
 }
 
 /* ----------------section-3-------------------- */
@@ -378,6 +408,14 @@
         transition: all 300ms linear !important;
         z-index: 3;
         align-items: center;
+    }
+
+    .gap-lg-20 {
+        gap: 20px;
+    }
+
+    .pl-lg-0 {
+        padding: 0 !important;
     }
 
     .show-navbar {
