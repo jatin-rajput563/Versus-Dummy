@@ -45,7 +45,7 @@
 }
 
 .color-yellow {
-    color: var(--dark-yellow);
+    color: var(--dark-yellow) !important;
 }
 
 .color-light-black {

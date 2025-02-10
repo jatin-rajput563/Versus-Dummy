@@ -160,6 +160,85 @@
     max-height: 480px;
 }
 
+/* ----------------section-4-------------------- */
+.section-4-bg {
+    background-image: url(/assets/image/png/section-4-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-4-card {
+    /* max-width: 1344px; */
+    width: 100%;
+    height: 468px;
+    border-radius: 16px;
+}
+
+.mx-w-1320 {
+    max-width: 1320px !important;
+}
+
+.meet-card {
+    border-radius: 72px;
+    background: #151A1F;
+}
+
+.mx-w-95 {
+    max-width: 95px;
+}
+
+.mx-w-132 {
+    max-width: 132px;
+}
+
+.mx-w-114 {
+    max-width: 114px;
+}
+
+.mx-w-538 {
+    max-width: 538px;
+}
+
+.pt-76 {
+    padding-top: 76px;
+}
+
+.pl-96 {
+    padding-left: 70px;
+}
+
+.compete-btn {
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    background: #D4FF27;
+    transition: all 200ms linear;
+}
+
+.compete-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
