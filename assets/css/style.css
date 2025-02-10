@@ -112,12 +112,30 @@
     line-height: 86.4px;
 }
 
-
+/* ----------------section-2-------------------- */
 .pt-95 {
     padding-top: 95px;
 }
 
+.lh-16 {
+    line-height: 16px;
+}
 
+.section-2-games-box {
+    border-radius: 16px;
+    padding: 16px;
+    background: #0D1012;
+    transition: all 200ms linear;
+}
+
+.section-2-games-box:hover {
+    transform: scale(1.05);
+}
+
+.coming-soon-img {
+    left: 0;
+    top: 0;
+}
 
 
 
