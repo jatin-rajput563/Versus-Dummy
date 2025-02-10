@@ -26,12 +26,6 @@
     z-index: 5;
 }
 
-.bg-img {
-    background-image: url(/assets/image/png/!important);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .loging-btn {
     padding: 12px 16px 12px 16px;
     gap: 4px;
@@ -105,7 +99,18 @@
     margin-left: 8px;
 }
 
+.mx-w-835 {
+    max-width: 835px;
+}
 
+.carousel-heading {
+    top: -470%;
+    right: 9%;
+}
+
+.lh-86 {
+    line-height: 86.4px;
+}
 
 
 

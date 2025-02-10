@@ -5,3 +5,4 @@ const navbarbtn = () => {
     document.getElementById("rotats2").classList.toggle("rotate-45")
     document.body.classList.toggle("overflow-hidden")
 }
+$('.carousel').carousel()
