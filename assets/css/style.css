@@ -268,10 +268,51 @@
     margin-top: 24px;
 }
 
+.bottom-card-img {
+    background-image: url(/assets/image/png/section-5-bottom-card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom-card {
+    width: 1344px;
+    height: 160px;
+    border-radius: 12px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 352px;
+}
 
 
+.mx-w-456 {
+    max-width: 456px;
+}
 
+.mail-box {
+    max-width: 404px;
+    width: 100%;
+    height: 40px;
+    min-width: 200px;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    background: #0D1012;
+}
 
+.input-arrow-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    padding: 12px;
+    background: #0D1012;
+}
+
+.gap-12 {
+    gap: 12px;
+}
 
 
 
