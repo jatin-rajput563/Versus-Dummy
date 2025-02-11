@@ -261,6 +261,10 @@
     max-height: 480px;
 }
 
+.mx-w-1320 {
+    max-width: 1320px !important;
+}
+
 .grind-section {
     min-height: 988px;
     background-image: url('/assets/image/png/section-3-bg-img.png');
@@ -636,5 +640,15 @@
 @media (max-width:720.98px) {
     .section-1-line {
         display: none;
+    }
+}
+
+@media (max-width:767.99px) {
+    .map-img {
+        width: 95%;
+    }
+
+    .input-box {
+        min-width: 0 !important;
     }
 }
