@@ -16,6 +16,14 @@
     max-width: 1140px !important;
 }
 
+.pt-16 {
+    padding-top: 16px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -303,7 +311,7 @@
 
 .section-5-sky-army-card {
     max-width: 660px;
-    padding: 32px 24px 24px 24px;
+    padding-left: 24px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     background: #0D1012;
@@ -314,7 +322,7 @@
     border-radius: 48px;
     padding: 8px 12px 8px 12px;
     top: 58.5%;
-    transform: translatey(-123%);
+    transform: translatey(-54%);
 }
 
 .Valorant-card-2 {
@@ -330,6 +338,10 @@
 
 .pt-3px {
     padding-top: 3px;
+}
+
+.pt-32 {
+    padding-top: 32px;
 }
 
 .horse-riding-card {
@@ -348,6 +360,10 @@
     padding-bottom: 40px;
 }
 
+.left-0 {
+    left: 0;
+}
+
 .bottom-card-img {
     background-image: url(/assets/image/png/section-5-bottom-card.png);
     background-size: cover;
@@ -355,7 +371,7 @@
 }
 
 .bottom-card {
-    width: 1344px;
+    width: 1300px;
     height: 160px;
     border-radius: 12px;
     padding-top: 40px;
@@ -426,6 +442,14 @@
 
 .mb-56 {
     margin-bottom: 56px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.mx-w-965 {
+    max-width: 965px;
 }
 
 @media (max-width:575.98px) {
