@@ -51,3 +51,14 @@
 .color-light-black {
     color: var(--text-light-black);
 }
+
+@media (max-width:431.92px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 10px;
+        --fs-lg: 14px;
+        --fs-xl: 18px;
+        --fs-2xl: 24px;
+        --fs-3xl: 60px;
+    }
+}
