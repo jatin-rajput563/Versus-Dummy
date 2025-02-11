@@ -59,7 +59,7 @@
 }
 
 .page-logo {
-    padding: 20px 24px;
+    padding: 20px 24px 24px 24px;
 }
 
 .page-logo-image {
@@ -97,8 +97,6 @@
 }
 
 .Signin-btn {
-    width: 94;
-    height: 40;
     padding: 12px 16px 12px 16px;
     gap: 4px;
     border-radius: 16px;
@@ -122,7 +120,7 @@
 }
 
 .btn {
-    padding: 18px 24px !important;
+    padding: 18px 24px 18px 24px !important;
 }
 
 .nav-link-coming-soon {
@@ -160,21 +158,29 @@
     line-height: 86.4px;
 }
 
-.header-main-para-box {
-    transform: translateY(-60%) translateX(-4%);
+.carousel-bg {
+    background-image: url("/assets/image/png/bg-image.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-content {
+    transform: translateY(-200px);
 }
 
 .mt-40 {
     margin-top: 40px;
 }
 
-.trasform-translateY-28 {
-    transform: translateY(28px);
+.trasform-translateY-15 {
+    transform: translateY(15px);
 }
 
 .compete-btn-2 {
     border-radius: 16px;
-    padding: 24px 16px 24px 16px;
+    padding: 16px 16px 16px 16px;
     max-width: 165px;
     background-color: #D4FF27;
     transition: all 200ms linear;
@@ -479,6 +485,11 @@
     border-radius: 12px;
     padding: 12px;
     background-color: var(--dark-yellow);
+    transition: all 200ms linear;
+}
+
+.footer-input-arrow-btn:hover {
+    background-color: white;
 }
 
 .gap-16 {
@@ -507,7 +518,15 @@
 }
 
 .footer-link:hover {
-    color: var(--dark-yellow);
+    color: #D4FF27;
+}
+
+.footer-tab-btn {
+    transition: all 200ms linear;
+}
+
+.footer-tab-btn:hover {
+    transform: scale(1.5)
 }
 
 @media (max-width:575.98px) {
@@ -528,6 +547,7 @@
         display: flex;
         margin: auto;
     }
+
 }
 
 @media (max-width:1199.98px) {
@@ -604,13 +624,17 @@
         line-height: 57.4px;
     }
 
-    .compete-btn-2 {
-        border-radius: 16px;
-        padding: 4px 4px 4px 4px;
-        max-width: 165px;
-        background: #D4FF27;
-        transition: all 200ms linear;
+}
+
+@media (min-width:992px) {
+    .footer-tags {
+        justify-content: end;
+        display: flex;
     }
+}
 
-
+@media (max-width:720.98px) {
+    .section-1-line {
+        display: none;
+    }
 }
