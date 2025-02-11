@@ -20,6 +20,28 @@
     padding-top: 16px;
 }
 
+.pb-56 {
+    padding-bottom: 56px;
+}
+
+.game-link {
+    color: var(--dark-yellow);
+    transition: all 200ms linear;
+}
+
+.game-link:hover {
+    color: white;
+}
+
+.NEWS-link {
+    color: var(--bs-btn-color);
+    transition: all 200ms linear;
+}
+
+.NEWS-link:hover {
+    color: white;
+}
+
 .pt-12 {
     padding-top: 12px;
 }
@@ -107,8 +129,12 @@
     padding: 2px 8px 2px 8px;
     border-radius: 40px;
     background: #1F272E;
+    transition: all 200ms linear;
 }
 
+.nav-link-coming-soon:hover {
+    background: var(--dark-yellow);
+}
 
 .pl-24 {
     padding-left: 24px;
@@ -130,13 +156,32 @@
     max-width: 835px;
 }
 
-.carousel-heading {
-    top: -470%;
-    right: 9%;
-}
-
 .lh-86 {
     line-height: 86.4px;
+}
+
+.header-main-para-box {
+    transform: translateY(-60%) translateX(-4%);
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.trasform-translateY-28 {
+    transform: translateY(28px);
+}
+
+.compete-btn-2 {
+    border-radius: 16px;
+    padding: 24px 16px 24px 16px;
+    max-width: 165px;
+    background-color: #D4FF27;
+    transition: all 200ms linear;
+}
+
+.compete-btn-2:hover {
+    background-color: white;
 }
 
 /* ----------------section-2-------------------- */
@@ -154,6 +199,10 @@
 
 .pt-47 {
     padding-top: 47px;
+}
+
+.pt-40 {
+    padding-top: 40px;
 }
 
 .pt-24 {
@@ -452,6 +501,15 @@
     max-width: 965px;
 }
 
+.footer-link {
+    color: var(--text-light-black);
+    transition: all 200ms linear;
+}
+
+.footer-link:hover {
+    color: var(--dark-yellow);
+}
+
 @media (max-width:575.98px) {
     .section-5-box {
         flex-direction: column;
@@ -537,5 +595,22 @@
     .mt-25 {
         margin-top: 25px;
     }
+
+    .pt-40 {
+        padding-top: 0;
+    }
+
+    .lh-86 {
+        line-height: 57.4px;
+    }
+
+    .compete-btn-2 {
+        border-radius: 16px;
+        padding: 4px 4px 4px 4px;
+        max-width: 165px;
+        background: #D4FF27;
+        transition: all 200ms linear;
+    }
+
 
 }
