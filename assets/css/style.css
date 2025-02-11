@@ -140,6 +140,18 @@
     padding-top: 95px;
 }
 
+.pb-96 {
+    padding-bottom: 96px;
+}
+
+.pt-47 {
+    padding-top: 47px;
+}
+
+.pt-24 {
+    margin-top: 24px;
+}
+
 .lh-16 {
     line-height: 16px;
 }
@@ -168,26 +180,32 @@
 }
 
 /* ----------------section-3-------------------- */
-.mx-w-432 {
-    max-width: 432px;
-}
-
 .lh-36 {
     line-height: 36px;
 }
 
 .grind-section-3-para {
-    top: 12%;
-    right: 27%;
-    font-family: "Normalidad", sans-serif;
-
+    max-width: 300px;
+    padding-bottom: 55px;
 }
 
 .video {
-    top: 30%;
-    left: 20%;
     max-width: 880px !important;
     max-height: 480px;
+}
+
+.grind-section {
+    min-height: 988px;
+    background-image: url('/assets/image/png/section-3-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.grind-section-btn {
+    padding: 16px 24px;
+    background-color: var(--dark-yellow);
+    border-radius: 12px;
 }
 
 /* ----------------section-4-------------------- */
@@ -381,19 +399,31 @@
     margin-bottom: 56px;
 }
 
+@media (max-width:575.98px) {
+    .section-5-box {
+        flex-direction: column;
+    }
 
+    .pt-95 {
+        padding-top: 15px;
+    }
 
+}
 
+@media (max-width:1199.98px) {
+    .pl-0 {
+        padding-left: 0 !important;
+    }
 
+    .px-custom-xl-3 {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
 
-
-
-
-
-
-
-
-
+    .section-4-card {
+        height: unset;
+    }
+}
 
 @media (max-width:991.98px) {
 
@@ -425,6 +455,15 @@
         right: 0 !important;
     }
 
+
+    .video {
+        width: 100%;
+    }
+
+    .max-lg-w-100 {
+        width: 100% !important;
+    }
+
     .section-5-sky-army-card {
         max-width: 100%;
     }
@@ -438,31 +477,4 @@
         margin-top: 25px;
     }
 
-
-}
-
-@media (max-width:575.98px) {
-    .section-5-box {
-        flex-direction: column;
-    }
-
-    .pt-95 {
-        padding-top: 15px;
-    }
-
-}
-
-@media (max-width:1199.98px) {
-    .pl-0 {
-        padding-left: 0 !important;
-    }
-
-    .px-custom-xl-3 {
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-    }
-
-    .section-4-card {
-        height: unset;
-    }
 }

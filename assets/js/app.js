@@ -11,6 +11,8 @@ $(".game-slider").slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
+    prevArrow: false,
+    nextArrow: false,
     responsive: [
         {
             breakpoint: 1024,
