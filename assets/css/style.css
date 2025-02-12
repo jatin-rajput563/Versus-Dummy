@@ -152,6 +152,10 @@
     padding-right: 24px;
 }
 
+.btn {
+    --bs-btn-color: #4D545E !important;
+}
+
 .ml-24 {
     margin-left: 24px;
 }
