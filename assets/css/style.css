@@ -725,6 +725,14 @@
         justify-content: end;
         display: flex;
     }
+
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 2rem !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 10rem !important;
+    }
 }
 
 @media (max-width:767.99px) {
