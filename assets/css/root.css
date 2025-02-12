@@ -6,9 +6,14 @@
     --fs-2xl: 36px;
     --fs-3xl: 96px;
     /* -------color----------- */
+    --color-white: white;
+    --color-black: black;
     --light-black: #151A1F;
     --dark-yellow: #D4FF27;
     --text-light-black: #4D545E;
+    --color-grey: #1F272E;
+    --bg-light-black: #0D1012;
+    --light-grey: #6E7681;
 }
 
 .fs-sm {
@@ -37,11 +42,11 @@
 
 /* -----------------------color------------------------- */
 .bg-light-black {
-    background-color: var(--light-black);
+    background-color: var(--light-black) !important;
 }
 
 .bg-dark-yellow {
-    background-color: var(--dark-yellow);
+    background-color: var(--dark-yellow) !important;
 }
 
 .color-yellow {
@@ -53,7 +58,11 @@
 }
 
 .light-black {
-    color: var(--light-black);
+    color: var(--light-black) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
 }
 
 @media (max-width:431.92px) {
