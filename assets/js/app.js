@@ -7,7 +7,7 @@ const navbarbtn = () => {
 }
 $(".game-slider").slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -28,8 +28,8 @@ $(".game-slider").slick({
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                // centerMode: true,
-                // variableWidth: true,
+                centerMode: true,
+                variableWidth: true,
             },
         },
         {
