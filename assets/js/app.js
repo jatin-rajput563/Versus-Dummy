@@ -28,8 +28,8 @@ $(".game-slider").slick({
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                centerMode: true,
-                variableWidth: true,
+                // centerMode: true,
+                // variableWidth: true,
             },
         },
         {

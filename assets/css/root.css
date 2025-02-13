@@ -72,6 +72,7 @@
 
 @media (max-width:575.98px) {
     :root {
+        --fs-sm: 11px;
         --fs-xl: 18px;
         --fs-2xl: 24px;
     }
