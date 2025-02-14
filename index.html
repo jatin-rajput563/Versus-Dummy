@@ -21,7 +21,7 @@
 
 <body class="bg-black">
     <!-- section-1 -->
-    <section class="bg-img">
+    <section>
         <nav class="bg-light-black nav">
             <div
                 class="d-flex justify-content-between w-100 nav-bar mx-auto  bg-light-black justify-content-center align-items-center">
@@ -38,7 +38,7 @@
                             <li><a class="dropdown-item font-normalidad fs-md fw-normal" href="#">THE GRIND STARTS
                                     NOW</a>
                             </li>
-                            <li>
+                            <li class="">
                                 <a class="dropdown-item font-normalidad fs-md fw-normal" href="#">NEWS</a>
                             </li>
                         </ul>
@@ -48,12 +48,10 @@
                             <a class="text-decoration-none fs-md fs-lg-xl font-normalidad fw-bold 
                             game-link" href="#">GAMES</a>
                         </li>
-                        <li>
-                            <p class="disable text-decoration-none pl-24 font-normalidad pl-lg-0 fs-md fw-bold color-light-black NEWS-link m-0"
-                                aria-disabled="true">NEWS</p>
-                        </li>
-                        <li>
-                            <a class="nav-link-coming-soon text-decoration-none color-light-black ml-8" href="#">Coming
+                        <li class="d-flex justify-content-center align-items-center">
+                            <p class="disable text-decoration-none pl-24 font-normalidad pl-lg-0 fs-md fw-bold color-light-black NEWS-link m-0 pt-4px"
+                                aria-disabled="true">NEWS</p><a
+                                class="nav-link-coming-soon text-decoration-none color-light-black ml-8" href="#">Coming
                                 Soon</a>
                         </li>
                         <li class="d-lg-none">
@@ -74,6 +72,12 @@
                     <span class="menu-lines" id="rotats2"></span>
                 </div>
                 <ul id="nav-bar" class="d-flex gap-3 list-unstyled mb-0 nav-link">
+                    <li>
+                        <svg width="2" height="40" viewBox="0 0 2 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 0V40" stroke="#1F272E" />
+                        </svg>
+
+                    </li>
                     <li>
                         <button class="loging-btn fw-medium fs-lg  border-0 font-normalidad lh-16">
                             LOG IN
@@ -104,13 +108,14 @@
                                     <p
                                         class="carousel-heading fw-bold fs-3xl text-center mx-auto mx-w-835 lh-86 m-0 text-white">
                                         CHALLENGE INCOMING</p>
-                                    <p class="fw-normal fs-lg pt-40 m-0 py-40 text-white text-center">PLAY GAMES. WIN
+                                    <p class="fw-normal fs-lg pt-40 m-0 py-40 text-white text-center letter-spacing">
+                                        PLAY GAMES. WIN
                                         PRIZES</p>
                                     <div class="d-flex justify-content-center align-items-center">
                                         <img class="cursol-btn-line" src="./assets/image/png/section-1-side-line.png"
                                             alt="section-1-side-line">
                                         <button
-                                            class="compete-btn-2 border-0 fw-medium fs-lg trasform-translateY-15 mx-24 mt-20">COMPETE
+                                            class="compete-btn-2 border-0 fw-medium fs-lg trasform-translateY-15 mx-24">COMPETE
                                             NOW</button>
                                         <img class="cursol-btn-line" src="./assets/image/png/section-1-right-line.png"
                                             alt="section-1-right-line">
@@ -127,13 +132,14 @@
                                     <p
                                         class="carousel-heading fw-bold fs-3xl text-center mx-auto mx-w-835 lh-86 m-0 text-white">
                                         CHALLENGE INCOMING</p>
-                                    <p class="fw-normal fs-lg pt-40 m-0 py-40 text-white text-center">PLAY GAMES. WIN
+                                    <p class="fw-normal fs-lg pt-40 m-0 py-40 text-white text-center letter-spacing">
+                                        PLAY GAMES. WIN
                                         PRIZES</p>
                                     <div class="d-flex justify-content-center align-items-center">
                                         <img class="cursol-btn-line" src="./assets/image/png/section-1-side-line.png"
                                             alt="section-1-side-line">
                                         <button
-                                            class="compete-btn-2 border-0 fw-medium fs-lg trasform-translateY-15 mx-24 mt-20">COMPETE
+                                            class="compete-btn-2 border-0 fw-medium fs-lg trasform-translateY-15 mx-24">COMPETE
                                             NOW</button>
                                         <img class="cursol-btn-line" src="./assets/image/png/section-1-right-line.png"
                                             alt="section-1-right-line">
@@ -311,7 +317,7 @@
                                             d="M1.60081 4.3649C1.59538 4.4508 1.6177 4.54313 1.64545 4.63429C1.87042 5.36824 2.19069 6.0572 2.65933 6.67721C3.03629 7.17566 3.48624 7.59815 4.0363 7.91546C4.28721 8.06038 4.55079 8.18076 4.82642 8.27484C4.84874 8.28244 4.87467 8.30757 4.89458 8.28244C4.91267 8.25965 4.88553 8.23744 4.87166 8.21874C4.66116 7.94818 4.47479 7.66185 4.30651 7.365C4.18649 7.15404 4.07249 6.93958 3.9778 6.71636C3.9392 6.62578 3.87527 6.55566 3.80892 6.48554C3.43015 6.08467 3.2094 5.60199 3.04413 5.09184C2.99287 4.93407 2.94884 4.77395 2.90119 4.61501C2.88611 4.56358 2.87405 4.51157 2.87345 4.45723C2.87224 4.35438 2.91928 4.29127 3.02182 4.26556C3.07007 4.25329 3.11953 4.24452 3.16899 4.23576C3.22085 4.22699 3.24197 4.20011 3.23473 4.14927C3.19914 3.91085 3.17622 3.67127 3.16235 3.43051C3.15994 3.38318 3.1334 3.36448 3.08756 3.37324C2.79745 3.43168 2.50191 3.46382 2.21662 3.54271C1.84267 3.64614 1.60262 3.96929 1.60202 4.36315L1.60081 4.3649Z"
                                             fill="#D4FF27" />
                                     </svg>
-                                    <p class="fw-bold fs-md font-normalidad text-white mb-0">
+                                    <p class="fw-bold fs-lg font-normalidad text-white mb-0">
                                         COMPETE
                                     </p>
                                 </div>
@@ -342,7 +348,7 @@
                                 intense tournaments and trophies. This is where passion meets
                                 competition. This is esports redefined.
                             </p>
-                            <button class="compete-btn border-0 fw-medium fs-md text-center font-normalidad">
+                            <button class="compete-btn border-0 fw-medium fs-lg text-center font-normalidad">
                                 COMPETE NOW
                             </button>
                         </div>
@@ -498,11 +504,11 @@
                                 class="section-5-input-arrow-btn justify-content-center d-flex align-items-center mr-28 curser-pointer ">
                                 <img src="./assets/image/svg/section-5-arrow-btn.svg" alt="section-5-arrow-btn">
                             </div>
-                            <img class="position-absolute right-bottom-8 curser-pointer "
-                                src="./assets/image/svg/section-5-bottom-icon.svg" alt="section-5-bottom-icon">
                         </div>
                     </div>
                 </div>
+                <img class="position-absolute right-bottom-8 curser-pointer "
+                    src="./assets/image/svg/section-5-bottom-icon.svg" alt="section-5-bottom-icon">
             </div>
         </div>
         <img class="position-absolute bottom-0 left-0 w-100" src="./assets/image/png/section-5-bg-bottom-layer.png"
